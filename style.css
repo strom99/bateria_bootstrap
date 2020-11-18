@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background: rgb(180, 180, 180);
+    width: 100vw;
+    height: 20%;
+}
+
+.main {
+    background: rgb(56, 56, 56);
+    height: 80%;
+    width: 100vw;
+}
+
+
+.footer {
+    background: rgb(117, 109, 109);
+    height: 20%;
+    width: 100vw;
+}
+
+.showcase-text h1 {
+    font-size: 3rem;
+}
