@@ -6,24 +6,116 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #020021;
+    font-family: 'Patua One', sans-serif !important;
+}
 
 .header {
-    background: rgb(180, 180, 180);
+    background:#020021;
     width: 100vw;
     height: 20%;
 }
 
+.nav{
+    white-space: nowrap;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 1.5rem;
+    transition: all ease 0.7s;
+}
+
+.nav li a:hover {
+    color: #00F582 !important;
+    filter: drop-shadow(2px 2px 5px  #00F582)
+}
+#data-singup {
+    color: #00F582 !important;
+}
+li:nth-of-type(4) {
+    border-right: 2px solid white;
+}
+
 .main {
-    background: rgb(56, 56, 56);
+    background: #020021;
     height: 80%;
     width: 100vw;
 }
 
+#encabezado-texto{
+    font-size: 50px;
+    color:#ffffff !important;
+    font-weight: bold !important;
+}
+
+#encabezado-texto:hover{
+    color: #00F582 !important;
+}
+#encabezado-parrafo{
+    font-size: 13px;
+    color: #534C6C !important;
+}
+
+.boton-1{
+    width: 160px;
+    height: 43px;
+    font-size: 14px;
+    background: #00F582;
+    border-radius: 40px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+.boton-1:hover{
+    box-shadow: 1px 1px 10px #00F582;
+    cursor: pointer;
+    animation: heart 1.3s ease infinite;
+}
+
+@keyframes heart {
+    0% {
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+    }
+}
 
 .footer {
-    background: rgb(117, 109, 109);
+    background: #020021;
     height: 20%;
     width: 100vw;
+}
+
+.encabezado-footer{
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold !important;
+}
+
+.parrafo-footer{
+    color: gray;
+    font-size: 11px;
+}
+
+.boton-2{
+    padding: 11px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    background: white;
+    color: #10102C;
+    border: none;
+    outline: none;
+    transition: all ease 0.5s;
+}
+
+.boton-2:hover {
+    box-shadow: 1px 1px 10px #ffff;
+    cursor: pointer;
 }
 
 .showcase-text h1 {
