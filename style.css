@@ -97,10 +97,10 @@ li:nth-of-type(4) {
 
 .bombo{
 
-    position: absolute;
+    position: relative;
     z-index: 1;
-    width: 122px;
-    height: 124px;
+    width: 10vw;
+    height: 10vw;
     font-size: 14px;
     background: #00F582;
     border-radius: 100%;
@@ -109,54 +109,17 @@ li:nth-of-type(4) {
     border: none;
     font-weight: 600;
     transition: all ease 0.5s;
-    right: 28%;
-    top: 52%;
+    right: 20%;
+    top: 50%;
 
 }
+
 .hit-hat{
-
-    position: absolute;
-    z-index: 1;
-    width: 122px;
-    height: 124px;
-    font-size: 14px;
-    background: #00F582;
-    border-radius: 100%;
-    color: #FFFFFF;
-    outline: none !important;
-    border: none;
-    font-weight: 600;
-    transition: all ease 0.5s;
-    right: 58.8%;
-    top: 52%;
-
-}
-
-.redoblante{
-
-    position: absolute;
-    z-index: 1;
-    width: 122px;
-    height: 124px;
-    font-size: 14px;
-    background: #00F582;
-    border-radius: 100%;
-    color: #FFFFFF;
-    outline: none !important;
-    border: none;
-    font-weight: 600;
-    transition: all ease 0.5s;
-    right: 35.8%;
-    top: 17.5%;
-
-}
-
-.crash{
 
     position: relative;
     z-index: 1;
     width: 10vw;
-    height: 20vh;
+    height: 10vw;
     font-size: 14px;
     background: #00F582;
     border-radius: 100%;
@@ -165,10 +128,48 @@ li:nth-of-type(4) {
     border: none;
     font-weight: 600;
     transition: all ease 0.5s;
-    right: 51%;
-    top: 17.5%;
+    right: 50%;
+    top:40%;
+}
+ 
+.redoblante{
+
+    position: relative;
+    z-index: 1;
+    width: 10vw;
+    height: 10vw;
+    font-size: 14px;
+    background: #00F582;
+    border-radius: 100%;
+    color: #FFFFFF;
+    outline: none !important;
+    border: none;
+    font-weight: 600;
+    transition: all ease 0.5s;
+    right: 0vw;
+    top: 12vw;
 
 }
+
+.crash{
+    
+    z-index: 1;
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    font-size: 14px;
+    background: #00F582;
+    border-radius: 100%;
+    color: #FFFFFF;
+    outline: none !important;
+    border: none;
+    font-weight: 600;
+    transition: all ease 0.5s;
+    right: 21.5vh;
+    top: 12vh;
+
+}
+
 
 
 

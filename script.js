@@ -3,6 +3,10 @@ document.addEventListener('click', function(event){
     const sonido = document.querySelector("audio[data-boton=" + boton +"]");
     sonido.play();
     sonido.currentTime = 0;
-
     console.log(boton);
 });
+
+document.onkeydown = function() {
+    document.getElementById('bombo').play();
+    
+} 
