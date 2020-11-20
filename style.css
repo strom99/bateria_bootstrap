@@ -94,6 +94,7 @@ li:nth-of-type(4) {
     }
 }
 
+
 .bombo{
 
     position: absolute;
@@ -148,7 +149,6 @@ li:nth-of-type(4) {
 
 .crash{
     
-
     position: absolute;
     width: 20%;
     height: 30%;
