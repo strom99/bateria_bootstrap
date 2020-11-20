@@ -143,8 +143,8 @@ li:nth-of-type(4) {
     border: none;
     font-weight: 600;
     transition: all ease 0.5s;
-    right: 51.2%;
-    top: 17%
+    right: 29.3%;
+    top: 17%;
 
 }
 
@@ -161,8 +161,8 @@ li:nth-of-type(4) {
     border: none;
     font-weight: 600;
     transition: all ease 0.5s;
-    right: 29.3%;
-    top: 17%;
+    right: 51.2%;
+    top: 17%
 
 }
 
@@ -170,10 +170,10 @@ li:nth-of-type(4) {
 
 
 .difuminado{
-    background-color:  #f7f7f7;
+    background-color:   #370B6E;
     width: 250px;
     height: 350px;
-    border-radius: 150%;
+    border-radius: 100%;
     filter: blur(3rem); 
     margin-top: 1rem;
 }
