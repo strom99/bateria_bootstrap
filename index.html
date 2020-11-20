@@ -37,36 +37,41 @@
             </div>
           </header>
         <div class="row main col-12 p-0 m-0 ">
-            <div class="showcase-text col-12 col-md-5 col-lg-4 p-md-3 d-flex flex-column align-items-center text-lg-left mt-5">
-                <h1 id="encabezado-texto" class="encabezado text-white text-center text-wrap mw-100 ">Music for everyone.</h1>
+            <div class="showcase-text col-12 col-lg-6 p-md-3 d-flex flex-column align-items-center mt-5">
+                <h1 id="encabezado-texto" class="encabezado text-white">Music for <br> everyone.</h1>
                 <p id="encabezado-parrafo" class="text-center ">Millons of songs. No credit card needed.</p>
                 <input class="boton-1" type="button" value="Hit the"/>
             </div>
-            <div class="showcase-image  col-12 col-md-7 col-lg-8 order-first order-md-last d-flex justify-content-center" >
-                <img class="img-fluid mw-100 h-auto p-3" style="z-index: 1;" src="drumkit.png" alt="" width="70%">
-                <div class="difuminado"> </div>
-                <div class="position-absolute"> 
-                <button data-boton="bombo"class="bombo" type="button" value=>bombo - L</button>
-                <button data-boton="hit-hat"class="hit-hat" type="button" value=>hit-hat - A</button>
-                <button data-boton="redoblante"class="redoblante" type="button" value=>redoblante - S</button>
-                <button data-boton="crash"class="crash" type="button" value=>crash - K</button> 
-                </div>
+            <div class="col-12 col-lg-6 order-first order-md-last padre position-relative" >
+                <img class="radio w-100" src="drumkit.png" alt="">
+                <div class="difuminado"> </div> 
+                    <button data-boton="bombo"class="bombo" type="button" value=>bombo</button>
+                    <button data-boton="hit-hat"class="hit-hat" type="button" value=>hit-hat</button>
+                    <button data-boton="redoblante"class="redoblante" type="button" value=>redoblante - S</button>
+                    <button data-boton="crash"class="crash" type="button" value=>crash</button>
+                    <button data-boton="tom-1"class="tom-1" type="button" value=>Tom-1</button> 
+                    <button data-boton="tom-2"class="tom-2" type="button" value=>Tom-2</button> 
+                    <button data-boton="tom-3"class="tom-3" type="button" value=>Tom-3</button> 
+                    <button data-boton="tom-4"class="tom-4" type="button" value=>Tom-4</button> 
                 
 
                 <audio id="hit-hat" data-boton="hit-hat" src="hit-hat.wav"></audio>
                 <audio id="bombo" data-boton="bombo" src="bombo.wav"></audio>
                 <audio data-boton="redoblante" src="redoblante.wav"></audio>
                 <audio data-boton="crash" src="crash.wav"></audio>
-                <script src="script.js"></script>
+                <audio data-boton="tom-1" src="tom1.wav"></audio>
+                <audio data-boton="tom-2" src="tom2.wav"></audio>
+                <audio data-boton="tom-3" src="tom3.wav"></audio>
+                <audio data-boton="tom-4" src="tom4.wav"></audio>
             </div>
 
         </div>
         <div class="row footer col-12 p-1 m-0 d-flex flex-column align-items-center text-center">
-            <h3 class="encabezado-footer">Try Premium free for 1 month.</h3>
+            <h3 id="ali" class="encabezado-footer">Try Premium free for 1 month.</h3>
             <p class="parrafo-footer">Play millions of songs add-free, on-demand, and offline.</p>
-            <input class="boton-2" type="button" value="SEE PRICING"/>
+            <input id="boton" class="boton-2" type="button" value="SEE PRICING"/>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
